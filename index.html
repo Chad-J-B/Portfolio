@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Chad Butz Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,9 +15,14 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <script src="https://kit.fontawesome.com/e9d5b714c8.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Lexend+Tera&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,7 +30,233 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href ="#about">About me</a></li>
+          <li><a href = "#skills">Skills</a></li>
+          <li><a href ="#work">Projects</a></li>
+          <li><a href = "#contact" id="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="home-title">
+        <h1>Hey there, I'm Chad Butz!</h1>
+        <h2>I'm a Front End Web Developer who has a passion for creating stunning and innovative websites in Aberdeen,MD.</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3>
+          <div class="portfolio-wrapper">
+            <div class="portfolio-project">
+              <figure>
+                <a href = "https://y4chp0.csb.app/" target="_blank">
+                  <img src="img/sticky-notes-app.png" alt="sticky notes app">
+                </a>
+              </figure>
+              <h4>Super Sticky Notes</h4>
+              <p class="project-description">
+                A greenfield project creating a sticky notes app.
+                 The app uses multiple components to build the sticky
+                  note UI and gives the user the ability to add, edit, delete, and
+                   search for notes. I used codesandbox with JS React
+                    being the main language to create it.
+              </p>
+              <p>
+                <span>Skills: </span>
+              JSX, React, ES6, Managing data flow, Manipulate the DOM
+              </p>
+              <p>
+                <span>Tools: </span>
+                Codesandbox
+              </p>
+              <a class="project-link" href="https://y4chp0.csb.app/" target="_blank">Live Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href = "https://chad-j-b.github.io/github-repo-gallery/" target="_blank">
+                  <img src="img/github-repo-gallery.png" alt="github repo gallery screenshot">
+                </a>
+              </figure>
+              <h4>GitHub Repo Gallery</h4>
+              <p class="project-description">
+                GitHub Repo gallery uses GitHub’s API to pull data 
+                from my personal GitHub portfolio to create it. Users 
+                can click on repos to see more details and a link to the 
+                repo. Users can also search for a particular repo.
+              </p>
+              <p>
+                <span>Skills: </span>
+              Manipulate the DOM, API's
+              </p>
+              <p>
+                <span>Tools: </span>
+                GitHub
+              </p>
+              <a class="project-link" href="https://chad-j-b.github.io/github-repo-gallery/" target="_blank">Live Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href = "https://chad-j-b.github.io/guess-the-word/" target="_blank">
+                  <img src="img/guess-the-word.png" alt="guess the word game screenshot">
+                </a>
+              </figure>
+              <h4>Guess The Word</h4>
+              <p class="project-description">
+                Guess The Word is an interactive game where players guess 
+                the word by entering one letter at a time. If the player
+                guess correctly before they run out of guesses they win!
+                The word is randomly selected from a group of words pulled 
+                from a JSON file. Give it a try!
+              </p>
+              <p>
+                <span>Skills: </span>
+              Manipulate the DOM, Vanilla JavaScript
+              </p>
+              <p>
+                <span>Tools: </span>
+                GitHub, VS Code
+              </p>
+              <a class="project-link" href="https://chad-j-b.github.io/guess-the-word/" target="_blank">Live Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href = "https://chad-j-b.github.io/unplugged-retreat-website/" target="_blank">
+                  <img src="img/unplugged-retreat-website.png" alt="Unplugged retreat website home page screenshot">
+                </a>
+              </figure>
+              <h4>Unplugged Retreat Website</h4> 
+              <p class="project-description">
+                A 3 page responsive website built  that adapts to mobile, tablet, 
+                and desktops. I built it from a design comp using photoshop. I 
+                used visual studio code with HTML, and CSS being the main languages 
+                used.
+              </p>
+              <p>
+                <span>Skills: </span>
+              CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+              </p>
+              <p>
+                <span>Tools: </span>
+                Photoshop, GitHub, VS code
+              </p>
+              <a class="project-link" href="https://chad-j-b.github.io/unplugged-retreat-website/" target="_blank">Live Page</a>
+            </div>
+            <div class="portfolio-project">
+              <figure>
+                <a href = "https://rieo23.csb.app/" target="_blank">
+                  <img src="img/name-tag-generator.png" alt="Name tag generator app screenshot">
+                </a>
+              </figure>
+              <h4>Name Tag Generator</h4>
+              <p class="project-description">
+                A name tag generator that allows users  to create and 
+                delete name tags using ES6 and managing data flow.
+              </p>
+              <p>
+                <span>Skills: </span>
+              ES6, JSX, Managing Data Flow
+              </p>
+              <p>
+                <span>Tools: </span>
+                Codesandbox
+              </p>
+              <a class="project-link" href="https://rieo23.csb.app/" target="_blank">Live Page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">Git and GitHub</p>
+            <p class="skill">API's</p>
+            <p class="skill">Manipulate The DOM</p>
+          </div>
+          <h4>Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool">PhotoShop</p>
+            <p class="tool">GitHub</p>
+            <p class="tool">VS Code</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/portfolio-picture.jpg" alt id="portfolio-image">
+          </figure>
+          <div class="about-info">
+            <h3>Hey! I'm Chad Butz.</h3>
+            <h4>I'm a Front End Web Deveolper with a passion for creating 
+              distinct, engaging websites and apps. 
+            </h4>
+            <p class="about-me-text">
+              I was drawn to web development because of the endless possibilities 
+              of what can be created and the challenge of solving problems to 
+              gain the best user experience. Since I was a kid anything that was 
+              broken I would disassemble and reassemble trying to fix. A couple 
+              years ago I challenged myself to build a PC buying each part individually
+              with no prior PC building knowledge. The end result ultimately sparked 
+              my desire to pursue a career in tech. Outside of tech some of my hobbies 
+              include fishing, Camping, archery, Gaming, and almost anything car related.
+            </p>
+            <p>
+              <span>Looking forward to working with you!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Connect with me</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h5 class="contact-title">Contact Information</h5>
+          <p><i class="fa-solid fa-mobile-screen fa-bounce"></i>(954)871-4972</p>
+          <p><i class="fa-solid fa-envelope fa-flip"></i>Chad.J.Butz@gmail.com</p>
+        </div>
+        <div class="contact-follow-section">
+          <h5 class="contact-title">Follow me</h5>
+          <ul class="social-icons">
+            <li>
+              <a href="https://github.com/Chad-J-B" target="_blank">
+                <i class="fab fa-github fa-bounce"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BFlNrUXPASBGnez2TZmxcxA%3D%3D
+              " target="_blank">
+              <i class="fab fa-linkedin fa-bounce"></i>
+             </a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Where I'm Located</h5>
+          <p><i class="fa-solid fa-location-arrow fa-flip"></i>Aberdeen, MD</p>
+          <p>Are you located near by and want to meet?</p>
+        </div>
+      </div>
+      <p>"Copyright
+      <script>document.write(new Date().getFullYear())</script>
+      | Chad Butz"
+      </p>
+    </div>
+  </footer>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
