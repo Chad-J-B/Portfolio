@@ -442,6 +442,12 @@ footer h4 {
   width: 100%;
 }
 
+footer .contact-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer .follow-section {
   display: flex;
   flex-flow: row wrap;
@@ -450,7 +456,7 @@ footer .follow-section {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 footer ul {
